@@ -1,0 +1,80 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="stack_card_height">400dp</dimen>
+    <dimen name="stack_card_width">375dp</dimen>
+
+
+
+
+    <dimen name="circle_size">36dp</dimen>
+    <dimen name="outer_padding">10dp</dimen>
+    <dimen name="nav_bar_radius">10dp</dimen>
+    <dimen name="nav_bar_height">59dp</dimen>
+    <dimen name="profile_between_element_padding">10dp</dimen>
+    <!-- below should be equal to my_profile_margin_top + 0.5 my_profile_avatar -->
+    <dimen name="profile_invite_btn_radius">18dp</dimen>
+    <dimen name="large_text_size">18sp</dimen>
+
+    <dimen name="connect_circle_width">200dp</dimen>
+    <dimen name="connect_circle_height">200dp</dimen>
+    <!--
+    changing dimens here doesn't affect it there (scale properly or
+    something is needed. As of now has intrinsic height)
+    dot dims as of now it is 10pix (and 7dp sets it to 10.5pix) for this screen
+    should scale (while changing height, not just visually) in future to make changes possible/easier
+    probably just fitxy scaling
+    -->
+    <!-- small text size must be below 13 so words don't get cut off on small screen -->
+
+    <dimen name="profile_title_size">16dp</dimen>
+    <dimen name="profile_row_height">50dp</dimen>
+    <dimen name="profile_subtitle_size">10dp</dimen>
+
+    <!-- PullToRefresh -->
+    <dimen name="small_nav_bar_height">75dp</dimen>
+    <dimen name="new_onboarding_container_height">130dp</dimen>
+    <dimen name="new_onboarding_container_expanded_height">264dp</dimen>
+    <dimen name="new_onboarding_button_height">56dp</dimen>
+    <dimen name="new_onboarding_button_width">300dp</dimen>
+    <dimen name="profile_list_row_height">84dp</dimen>
+    <dimen name="profile_list_compact_avatar">60dp</dimen>
+    <dimen name="profile_list_action_buttons_dimen">36dp</dimen>
+    <dimen name="profile_list_row_margin">10dp</dimen>
+    <dimen name="profile_list_compact_title_size">15sp</dimen>
+    <dimen name="profile_list_compact_subtitle_size">10sp</dimen>
+    <dimen name="cover_photo_height">216dp</dimen>
+    <dimen name="profile_avatar_dimen">90dp</dimen>
+    <dimen name="profile_avatar_overlay_dimen">88dp</dimen>
+    <dimen name="profile_section_header_height">30dp</dimen>
+    <dimen name="facebook_post_avatar_dimen">168px</dimen>
+    <dimen name="facebook_post_dimen">640px</dimen>
+    <dimen name="facebook_post_grey_height">396px</dimen>
+
+    <!-- New values -->
+    <dimen name="standard_margin">16dp</dimen>
+    <dimen name="standard_quarter_margin">4dp</dimen>
+    <dimen name="standard_half_margin">8dp</dimen>
+    <dimen name="profile_bottom_height">60dp</dimen>
+    <dimen name="profile_small_avatar_size">42dp</dimen>
+    <dimen name="topbar_action_button_size">68dp</dimen>
+    <dimen name="topbar_height">65dp</dimen>
+    <dimen name="profile_avatar_overlay_dimen_half">44dp</dimen>
+
+    <dimen name="_add_photo_button_text_size_small">15px</dimen>
+    <dimen name="_add_photo_button_text_size_large">19px</dimen>
+    <dimen name="add_photo_button_text_size">@dimen/_add_photo_button_text_size_small</dimen>
+
+    <dimen name="_like_comment_button_text_size_small">15px</dimen>
+    <dimen name="_like_comment_button_text_size_large">18px</dimen>
+    <dimen name="like_comment_button_text_size">@dimen/_like_comment_button_text_size_small</dimen>
+    <dimen name="circle_corner_radius">16dp</dimen>
+
+    <dimen name="center_marker_size">15dp</dimen>
+    <dimen name="loading_indicator_size">30dp</dimen>
+
+    <dimen name="splash_screen_left_margin">40dp</dimen>
+    <dimen name="card_height">200dp</dimen>
+
+</resources>
