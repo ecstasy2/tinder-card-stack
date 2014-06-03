@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="normal_text_color">#000</color>
+    <color name="medium_text_color">#9c9c9c</color>
+    <color name="darker_text_color">#626262</color>
+    <color name="white">#ffffff</color>
+    <color name="clear">#00ffffff</color>
+    <color name="black">#000000</color>
+    <color name="fb_login">#135381</color>
+    <color name="reauthorize_text_selected">#173a85</color>
+    <color name="reauthorize_text">#3b5998</color>
+    <color name="transparent_color">#0000</color>
+    <color name="row_color_default">#EEEEEE</color>
+    <color name="row_color_pressed">#DDDDDD</color>
+    <color name="feed_action_text">#99151515</color>
+    <color name="facebook_post_grey_color">#9A000000</color>
+    <color name="facebook_post_separator">#F2FFFFFF</color>
+    <color name="background_default_thick_overlay">#AA222222</color>
+    <color name="list_item_content_text">#4A4C4F</color>
+    <color name="list_item_name_text">#818487</color>
+    <color name="list_item_time_text">#ABADAF</color>
+    <color name="main_divider">#666</color>
+    <color name="login_button_color">#0570B4</color>
+    <color name="addpost_tint_color">#33000000</color>
+    <color name="overlay">#88000000</color>
+    <color name="unselected_text">#CCCCCC</color>
+    <color name="white_light">#88FFFFFF</color>
+    <color name="light_divider">#11000000</color>
+    <color name="window_background">#ffffff</color>
+</resources>

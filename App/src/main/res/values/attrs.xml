@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <declare-styleable name="AdapterViewAnimator">
+        <!-- Identifier for the animation to use when a view is shown. -->
+        <attr name="inAnimation" format="reference"/>
+        <!-- Identifier for the animation to use when a view is hidden. -->
+        <attr name="outAnimation" format="reference"/>
+        <!--Defines whether the animator loops to the first view once it
+        has reached the end of the list. -->
+        <attr name="loopViews" format="boolean" />
+        <!-- Defines whether to animate the current View when the ViewAnimation
+        is first displayed. -->
+        <attr name="animateFirstView" format="boolean" />
+    </declare-styleable>
+    
+    <declare-styleable name="AdapterViewFlipper">
+        <attr name="flipInterval" format="integer" min="0" />
+        <!-- When true, automatically start animating -->
+        <attr name="autoStart" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SpotlightView">
+        <attr name="target" format="reference" />
+        <attr name="mask" format="reference" />
+    </declare-styleable>
+    
+</resources>
+
