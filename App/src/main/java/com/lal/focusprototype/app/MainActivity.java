@@ -6,6 +6,7 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.graphics.Rect;
 import android.os.Build;
+import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.view.Window;
@@ -13,22 +14,23 @@ import android.view.Window;
 import com.lal.focusprototype.app.views.CardStackView;
 import com.lal.focusprototype.app.views.FeedItemView;
 
-import org.androidannotations.annotations.AfterViews;
-import org.androidannotations.annotations.Bean;
-import org.androidannotations.annotations.EActivity;
-import org.androidannotations.annotations.ViewById;
-import org.androidannotations.annotations.WindowFeature;
+import butterknife.ButterKnife;
+import butterknife.InjectView;
 
-@WindowFeature({ Window.FEATURE_ACTION_BAR})
-@EActivity(R.layout.activity_main)
 public class MainActivity extends Activity {
-    @ViewById
+    @InjectView(R.id.mCardStack)
     CardStackView mCardStack;
 
     private Handler handler;
 
-    @AfterViews
-    public void initialize(){
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
+
+        setContentView(R.layout.activity_main);
+        ButterKnife.inject(this);
+
         handler = new Handler();
 
         handler.postDelayed(new Runnable() {
@@ -72,7 +74,7 @@ public class MainActivity extends Activity {
     }
 
     private void doInitialize() {
-        mCardStack.setAdapter(FeedListAdapter_.getInstance_(this));
+        mCardStack.setAdapter(new FeedListAdapter(this));
     }
 
     public Rect locateView(View view) {
