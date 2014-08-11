@@ -125,7 +125,7 @@ public class CardStackView extends RelativeLayout {
             mMyTouchListener = new MyOnTouchListener();
         }
 
-        mCurrentPosition += position - 1;
+        mCurrentPosition += position;
     }
 
     @Override
