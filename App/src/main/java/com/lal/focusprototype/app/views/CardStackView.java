@@ -167,7 +167,7 @@ public class CardStackView extends RelativeLayout {
     }
 
     private boolean adapterHasMoreItems() {
-        return mCurrentPosition < mAdapter.getCount() - 1;
+        return mCurrentPosition < mAdapter.getCount();
     }
 
     private boolean isTopCard(View card) {
