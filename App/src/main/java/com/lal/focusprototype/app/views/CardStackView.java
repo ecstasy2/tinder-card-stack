@@ -15,7 +15,7 @@ import android.widget.RelativeLayout;
 import com.lal.focusprototype.app.R;
 import com.nineoldandroids.animation.Animator;
 import com.nineoldandroids.animation.AnimatorListenerAdapter;
-import com.nineoldandroids.animation.AnimatorSet;
+import com.nineoldandroids.animonation.AnimatorSet;
 import com.nineoldandroids.animation.ObjectAnimator;
 import com.nineoldandroids.animation.ValueAnimator;
 
@@ -359,6 +359,7 @@ public class CardStackView extends RelativeLayout {
                         }
 
                         int sign = mXDelta > 0 ? +1 : -1;
+                        final boolean finalChoice = mXDelta > 0;
 
                         mBeingDragged= null;
                         mXDelta = 0;
@@ -373,7 +374,7 @@ public class CardStackView extends RelativeLayout {
                             public void onAnimationEnd(Animator animation) {
 
                                 if (mCardStackListener != null){
-                                    boolean choice = getStackChoice();
+                                    boolean choice = finalChoice;
                                     mCardStackListener.onChoiceMade(choice, last);
                                 }
 
