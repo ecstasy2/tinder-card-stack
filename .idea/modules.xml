@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/App/App.iml" filepath="$PROJECT_DIR$/App/App.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FocusPrototype.iml" filepath="$PROJECT_DIR$/FocusPrototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tinder-card-stack.iml" filepath="$PROJECT_DIR$/tinder-card-stack.iml" />
     </modules>
   </component>
 </project>
